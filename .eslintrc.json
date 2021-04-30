@@ -1,0 +1,38 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "plugins": ["react"],
+  "rules": {
+    "no-unused-expressions": "off",
+    "no-unused-vars": "off",
+    "no-redeclare": "off",
+    "no-useless-escape": "off",
+    "no-undef": "off",
+    "no-mixed-spaces-and-tabs": "off",
+    "no-extra-semi": "off",
+    "no-prototype-builtins": "off",
+    "no-empty": "off",
+    "no-cond-assign": "off",
+    "react/prop-types": "off"
+  },
+  "settings": {
+    "react": {
+      "version": "16.7.0"
+    }
+  },
+  "parser": "babel-eslint"
+}

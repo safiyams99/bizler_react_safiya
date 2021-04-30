@@ -1,0 +1,21 @@
+body {
+  overflow: auto !important;
+}
+.wraper section#qualities.index-3 {
+  padding: 0;
+  position: relative;
+  min-height: 250px;
+  overflow: visible !important;
+  top: -100px;
+  z-index: 999;
+}
+
+#portfolio section#counter .counter-column .count_icon i::before {
+  color: black;
+}
+section#portfolio .project .label {
+  background-color: #2285d9;
+}
+.item.service-card:hover {
+  background-color: #2285d9;
+}
